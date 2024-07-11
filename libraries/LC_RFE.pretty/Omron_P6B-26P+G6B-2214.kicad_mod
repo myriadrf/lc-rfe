@@ -1,0 +1,338 @@
+(footprint "Omron_P6B-26P+G6B-2214"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "P6B-26P ")
+	(property "Reference" "REF**"
+		(at -3.575 -12.675 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80282c8b-31da-4d7f-8ef2-9d3f82a4745c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Omron_P6B-26P+G6B-2214"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca789469-c25a-4533-a121-7045cb44e298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.81 -8.9851 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d42666-ea66-42d2-9dac-50626a785ac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.81 -8.9851 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ef3167f-bd00-4312-93fe-e4f7cf1a96bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Combnation footprint for both the socket: P6B-26P and the relay: G6B-2214"
+		(at -3.81 -8.9851 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2923f544-46d7-4000-9ede-de041410e0d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.6261 -11.7221)
+		(end -5.6261 11.7221)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "754d0eaa-a27b-44d2-ae35-e569d9c52417")
+	)
+	(fp_line
+		(start -5.6261 11.7221)
+		(end 5.6261 11.7221)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b676c4d-c541-4579-af8e-b46da3f7366c")
+	)
+	(fp_line
+		(start 5.6261 -11.7221)
+		(end -5.6261 -11.7221)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29ff8974-e610-402d-ad80-33eca5e28c7e")
+	)
+	(fp_line
+		(start 5.6261 11.7221)
+		(end 5.6261 -11.7221)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83986241-f549-408a-bc97-028b65fc7887")
+	)
+	(fp_line
+		(start -5.7531 -11.8491)
+		(end 5.7531 -11.8491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b96e42d-c378-47f1-8023-08a29caff61e")
+	)
+	(fp_line
+		(start -5.7531 11.8491)
+		(end -5.7531 -11.8491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40dcd220-d5a7-4672-a55c-d28562abac39")
+	)
+	(fp_line
+		(start 5.7531 -11.8491)
+		(end 5.7531 11.8491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d60b02bf-dc3b-4915-9387-635391c6ba88")
+	)
+	(fp_line
+		(start 5.7531 11.8491)
+		(end -5.7531 11.8491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1fbe428-0625-4030-aa03-7d6b9ac3d8c1")
+	)
+	(fp_line
+		(start -5.4991 -11.5951)
+		(end -5.4991 11.5951)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1647bf55-2604-4eb9-8cdf-3b36e34f1894")
+	)
+	(fp_line
+		(start -5.4991 11.5951)
+		(end 5.4991 11.5951)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20de14df-822c-41b5-a469-318e08a5f0ca")
+	)
+	(fp_line
+		(start 5.4991 -11.5951)
+		(end -5.4991 -11.5951)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c31b1ec-dec2-46cb-a19a-5988f8485464")
+	)
+	(fp_line
+		(start 5.4991 11.5951)
+		(end 5.4991 -11.5951)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "476e733b-04a9-4f83-bbdd-2a2086ce4b6c")
+	)
+	(fp_arc
+		(start 0.3048 -11.5951)
+		(mid 0 -11.2903)
+		(end -0.3048 -11.5951)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c1ad04f-b966-48e8-9beb-c6b229fcea4f")
+	)
+	(fp_circle
+		(center -3.0099 -8.9851)
+		(end -3.0099 -8.9851)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2632b193-128b-417a-8171-7af609137a13")
+	)
+	(fp_text user "*"
+		(at -2.725 -13.15 0)
+		(layer "F.SilkS")
+		(uuid "1f382c72-0ac0-40d4-aef3-4a6f0c5bc502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -0.8 -13.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2974cede-c3fe-4b72-b915-bff799bfd441")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -3.81 -14.065099 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ac15bb1-14dc-49ec-a930-5e6f9c368c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f857ca7-3c99-4dac-9859-81bafdc7a626")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -3.81 -14.065099 0)
+		(layer "F.Fab")
+		(uuid "d2a8cdaf-9c95-4efb-bf8b-3b0a08982416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.81 -8.9851)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f00b31f-d696-49c6-bafa-4d7deab0f635")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 1.1749)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22a11e2c-2ec9-4725-a178-52cd8b711c2d")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 8.7949)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edcc83af-bf9b-48ce-ae59-dbaeed773bd5")
+	)
+	(pad "5" thru_hole circle
+		(at -3.81 8.7949)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b00f635-0592-4209-a56b-dadd7186452d")
+	)
+	(pad "6" thru_hole circle
+		(at -3.81 1.1749)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "697c3a67-1f07-4d6f-b9ac-9c994a750c04")
+	)
+	(pad "8" thru_hole circle
+		(at -3.81 -8.9851)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "364c4f9e-8cf2-49e4-a1c5-e3bfc4b2022e")
+	)
+	(model "./Omron_P6B-26P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "./Omron_G6B-2214P-US-P6B.step"
+		(offset
+			(xyz -3.7 9 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

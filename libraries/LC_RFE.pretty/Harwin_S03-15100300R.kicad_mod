@@ -1,0 +1,153 @@
+(footprint "Harwin_S03-15100300R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.5 -5.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7f50560c-cdc6-4404-8f86-84aa697586bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Harwin_S03-15100300R"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87d89db9-7656-4516-b383-66ec69121dd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Harwin_S03-15100300R"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c951749-5b64-4be8-a458-d168090b9b1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a055987d-a0c6-42e4-8720-44fdd1de7bb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ef52cad-4a96-4908-895d-4c7dd480feb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.5 -5)
+		(end -7.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1a2964b2-f89e-4e2f-b995-cf4b20a79ec2")
+	)
+	(fp_line
+		(start -7.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2a6c5bb-12f0-45ef-8953-e88de3abefd3")
+	)
+	(fp_line
+		(start -7.5 5)
+		(end 7.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad2ba983-d6c1-4985-bbdc-a1bcef0098fb")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b9cdb75-b6dd-4e50-8834-dbea62057451")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "317a56e1-45aa-4a8d-91ba-2302078e1c2b")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2c72b620-7a37-4e56-85e6-ca1a402aa432")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30998df2-ffe3-422c-8c97-75737c8178c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "./Harwin_S03-15100300E.step"
+		(offset
+			(xyz 0 0 3.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

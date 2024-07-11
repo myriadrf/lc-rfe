@@ -1,0 +1,251 @@
+(footprint "SOT65P210X110-3N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3-Lead Thin Shrink Small Outline Transistor Package [KS-SC-70] (KS-3)")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "2c4d007e-dcc6-48e7-9399-5b6391737977")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT65P210X110-3N"
+		(at 0 2.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8664fb4-0300-41b3-a12f-cc63f78cb783")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SOT65P210X110-3N"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "751beb44-c485-449a-81d0-6f5aa3602575")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed097cb1-5779-446f-a8ee-5b2477bfeb25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b028e5-e156-45ff-b9cd-13639d9403cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -1.15)
+		(end -0.525 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67c42117-c159-48bb-9aa3-fce676fd5f7c")
+	)
+	(fp_line
+		(start -0.175 -1)
+		(end 0.175 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32b71a8a-958f-4c0d-81d6-83172c1c78f3")
+	)
+	(fp_line
+		(start -0.175 1)
+		(end -0.175 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "857c3fff-12aa-4815-8301-f99ab5f3f28d")
+	)
+	(fp_line
+		(start 0.175 -1)
+		(end 0.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "279e4e98-b7aa-4fa6-8a16-83044e7e831a")
+	)
+	(fp_line
+		(start 0.175 1)
+		(end -0.175 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e4f8270-cb75-42f7-9d8b-2afe2cb103c0")
+	)
+	(fp_line
+		(start -1.825 -1.35)
+		(end 1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8616260-2ad7-43d2-9e60-065ecbd88d83")
+	)
+	(fp_line
+		(start -1.825 1.35)
+		(end -1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6edbe0ba-bc4d-4ea0-9fd8-09246f649444")
+	)
+	(fp_line
+		(start 1.825 -1.35)
+		(end 1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb9cfe16-34a3-4d51-95d6-e6e1de25f5a7")
+	)
+	(fp_line
+		(start 1.825 1.35)
+		(end -1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b16b8bfd-1e65-45d4-bda3-e4860fcb70a6")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ac7190f-42df-46ef-abd8-ae19431a19ee")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "928082e1-12fa-4148-9989-6446fb0027af")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81eb01ff-f1a8-41e5-841e-7c6b892429da")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85aebdf1-e8a9-406a-bab6-a487c86b33e0")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36a0e01e-60a7-4af7-abd8-0cae7c8a1b86")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(uuid "9075b2ca-b619-42d9-87c0-0e0d5592c29f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 -0.65 90)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "cd2975db-4c40-45d5-9838-2d937f97a5dd")
+	)
+	(pad "2" smd roundrect
+		(at -1.05 0.65 90)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ced13959-a9ec-4f63-8b73-352238c0960a")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 0 90)
+		(size 0.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8e8336a9-2892-431c-9578-c322553807dc")
+	)
+	(model "./SOT65P210X110-3N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

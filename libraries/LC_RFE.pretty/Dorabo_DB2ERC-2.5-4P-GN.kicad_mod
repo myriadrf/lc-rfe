@@ -1,0 +1,194 @@
+(footprint "Dorabo_DB2ERC-2.5-4P-GN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7 7.9 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5b7ac377-30ef-43e9-a274-df0954ab7ec8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Dorabo_DB2ERC-2.5-4P-GN"
+		(at 0 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "17d6ed35-b73b-4757-9b6f-7018d8093060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 10.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e2833e-d747-40ea-ba83-dab76e156358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 10.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17580abe-c57f-4d4a-9616-73a9738145dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 10.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38bf12c6-84ff-4440-a7e9-d581a07669a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.95 0)
+		(end -5.95 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcc7ef9d-0eb2-4c1b-9079-dd9454535294")
+	)
+	(fp_line
+		(start -5.95 10.1)
+		(end 5.95 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "461431ff-0683-454f-8052-8a7aba5f787f")
+	)
+	(fp_line
+		(start 0 0)
+		(end -5.95 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00100d4b-d8ef-49c2-8001-d94be5a5ded9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5.95 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c114a54c-5ca1-49ef-9dc2-2efc01f9f6d5")
+	)
+	(fp_line
+		(start 5.95 0)
+		(end 5.95 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a2fc616-4f0f-426d-a2cc-62c515d38af3")
+	)
+	(fp_rect
+		(start -6.25 0)
+		(end 6.25 10.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b779253d-bdf0-48d3-a6fa-0a2219764c41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51d232cd-b8e4-4a9e-9211-eca8c902b6d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.75 8.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "327fce31-af12-4299-acc6-9ac9d3bfdafd")
+	)
+	(pad "2" thru_hole roundrect
+		(at -1.25 8.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cb7a70a8-7ea6-40f9-b66f-ad4dc607d7b1")
+	)
+	(pad "3" thru_hole roundrect
+		(at 1.25 8.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8a1c5588-0b29-46bc-aab8-531d28783db6")
+	)
+	(pad "4" thru_hole roundrect
+		(at 3.75 8.9)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "57399076-7aad-4c2d-ba62-3c58bfa325dd")
+	)
+	(model "./Dorabo_DB2ERC-2.5-4P-GN.step"
+		(offset
+			(xyz 0.1 -5.1 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

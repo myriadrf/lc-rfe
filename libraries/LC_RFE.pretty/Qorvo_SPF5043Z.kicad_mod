@@ -1,0 +1,185 @@
+(footprint "Qorvo_SPF5043Z"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SPF5043Z")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "92353486-f726-4c35-8c49-2717e4f8b601")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SPF5043Z"
+		(at 3.606 -3.937 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b4a32638-a8f1-48cd-be9c-03e1f80ea70a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300e7a42-aeae-43a7-af4d-75f938196c66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a4ae96b-7ef4-4a55-81e0-4f2e06f072e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1088841-ada5-43a9-8dcd-63e2de6b8e71")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 0.62)
+		(end -1 -0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0344d9dc-1636-424f-9a79-e864f5251782")
+	)
+	(fp_line
+		(start 1 -0.62)
+		(end 1 0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d9fc2c4-c375-4e2c-ab9a-323628a17c3e")
+	)
+	(fp_circle
+		(center -0.652 1.911)
+		(end -0.652 1.92809)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "26cba671-7116-42ff-9d78-389079a4e284")
+	)
+	(fp_line
+		(start -1 -0.62)
+		(end 1 -0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "468551b3-273d-41cb-90e0-d05ec200b354")
+	)
+	(fp_line
+		(start -1 0.62)
+		(end -1 -0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27f68771-21b0-4230-9a8e-288fb3002598")
+	)
+	(fp_line
+		(start 1 -0.62)
+		(end 1 0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f008ba0b-866b-4ae9-9451-0e77b3cae60b")
+	)
+	(fp_line
+		(start 1 0.62)
+		(end -1 0.62)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4c4dac3-b4f6-4e22-978d-4ec7d5ae9c0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.606 -3.937 0)
+		(layer "F.Fab")
+		(uuid "aded774f-e8bc-4f0a-a678-1825ab47c1e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 1.1)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b134d49f-b555-41fa-b8d3-cd04020c703c")
+	)
+	(pad "2" smd rect
+		(at 0.5 1.1)
+		(size 0.75 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a4ec0718-8140-4b02-8ca3-0cdd4d10d797")
+	)
+	(pad "3" smd rect
+		(at 0.65 -1.1)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d154e454-3e83-4aeb-a714-49f96a11c7d1")
+	)
+	(pad "4" smd rect
+		(at -0.65 -1.1)
+		(size 0.45 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d5b322a-407b-4d12-a723-8d2238b4dd14")
+	)
+	(model "./Qorvo_SPF5043Z.step"
+		(offset
+			(xyz 0 -0.05999999776 0.5899999649)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

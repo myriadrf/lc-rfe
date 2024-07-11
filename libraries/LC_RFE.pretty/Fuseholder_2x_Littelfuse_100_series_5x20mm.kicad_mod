@@ -1,0 +1,266 @@
+(footprint "Fuseholder_2x_Littelfuse_100_series_5x20mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf")
+	(tags "Fuseholder clips")
+	(property "Reference" "REF**"
+		(at 10.25 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fae6fc15-1a01-4db1-9ae0-0c65fec3c8a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuseholder_2x_Littelfuse_100_series_5x20mm"
+		(at 10.25 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34de270d-0663-491f-9854-afdac6dd067e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "309ad4d6-2df2-49e3-b2a7-622fc3e5cdde")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faea3760-d852-4dcb-b718-fb03b2e77f09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4331b54d-d787-4985-9f20-3c0a182eb7ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.75 -3.05)
+		(end 22.25 -3.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29c3a5d8-271b-47dc-8cee-44d182bc5416")
+	)
+	(fp_line
+		(start -1.75 3.05)
+		(end -1.75 -3.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfe30b86-25df-4819-abf6-84e5ef6b5800")
+	)
+	(fp_line
+		(start 22.25 -3.05)
+		(end 22.25 3.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e154afd7-3fd3-4c33-b30c-c3fac73c0e65")
+	)
+	(fp_line
+		(start 22.25 3.05)
+		(end -1.75 3.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f159d961-a5df-4bdb-8344-cb41cb06ccdc")
+	)
+	(fp_line
+		(start -1.9 -3.2)
+		(end 22.4 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f83774b2-22ac-4abe-88f7-756fc3d1e05e")
+	)
+	(fp_line
+		(start -1.9 3.2)
+		(end -1.9 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7774ca9-23b0-4cbc-a187-44133aaa851d")
+	)
+	(fp_line
+		(start 22.4 -3.2)
+		(end 22.4 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fbf2f60-b70f-480d-9c54-5ac2de7defca")
+	)
+	(fp_line
+		(start 22.4 3.2)
+		(end -1.9 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7624a2ec-06e1-47a0-92a8-ff3c18b3880f")
+	)
+	(fp_line
+		(start -1.65 -2.95)
+		(end 22.15 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f53690f-394d-4362-b2f5-8e7fbcf97acc")
+	)
+	(fp_line
+		(start -1.65 2.95)
+		(end -1.65 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "445ce8ab-bc58-4396-bc21-648da475d551")
+	)
+	(fp_line
+		(start 22.15 -2.95)
+		(end 22.15 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e017eb98-6706-48f5-a2f0-c191c20fe8a1")
+	)
+	(fp_line
+		(start 22.15 2.95)
+		(end -1.65 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c97adb73-03b5-43f0-9808-2f08bf615114")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c91eedf4-ea3a-41da-bd43-0351f4dfe38f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25d12efa-60e6-4e6c-8998-8e10e1645b03")
+	)
+	(pad "1" thru_hole circle
+		(at 4.6 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9ebf4d2-ea0a-4c63-9ad1-c707c647fcca")
+	)
+	(pad "2" thru_hole circle
+		(at 15.9 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41e4eaf3-5b47-4af5-a15b-e5da5ade7633")
+	)
+	(pad "2" thru_hole circle
+		(at 20.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c3f668a-8de1-4a13-ae33-98bba5567035")
+	)
+	(model "./Littelfuse_100020.step"
+		(offset
+			(xyz 2.25 0 10.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "./Littelfuse_100020.step"
+		(offset
+			(xyz 18.2 0 10.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "./Generic-Fuse_5x20mm.step"
+		(offset
+			(xyz 2.5 0 6.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 0)
+		)
+	)
+)
