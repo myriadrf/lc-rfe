@@ -1,7 +1,7 @@
-(footprint "Samtec_SMA-J-P-H-RA-TH1"
-	(version 20240108)
+(footprint "Samtec_SMA-J-P-H-RA-TH1_W_CLEARANCE"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr " Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682")
 	(tags "SMA THT Female Jack Horizontal")
@@ -16,26 +16,13 @@
 			)
 		)
 	)
-	(property "Value" "Samtec_SMA-J-P-H-RA-TH1"
+	(property "Value" "Samtec_SMA-J-P-H-RA-TH1_W/CLEARANCE"
 		(at 0 11 0)
 		(layer "F.Fab")
 		(uuid "1cdf1a9c-3d39-4c7c-b673-453103ca4a89")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 4.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "63d1c424-7279-4da9-bec2-0aa8debec97a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -337,6 +324,19 @@
 		(layer "F.Fab")
 		(uuid "24038d72-9abe-4b1f-ac4a-2e93acb3de5b")
 	)
+	(fp_text user "top-bot offset: 0.05mm"
+		(at -9 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "62b837ff-902d-4a29-945f-33b7533b894f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 10 0)
 		(layer "F.Fab")
@@ -350,58 +350,148 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 4.5)
-		(size 2.3 2.3)
-		(drill 1.45)
+		(size 2 2)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(thermal_bridge_angle 90)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "5ba303b1-f1ef-47f1-b8c6-00556a16167a")
 	)
 	(pad "2" thru_hole roundrect
-		(at -2.54 1.96)
-		(size 2.2 2.2)
-		(drill 1.5)
+		(at -2.54 1.91)
+		(size 2 2)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
+		(thermal_bridge_width 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "0eac634c-922d-4a77-9d58-375af155e13e")
 	)
 	(pad "2" thru_hole roundrect
-		(at -2.54 7.04)
-		(size 2.2 2.2)
-		(drill 1.5)
+		(at -2.54 7.09)
+		(size 2 2)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
+		(thermal_bridge_width 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "0432e9f9-dc63-4f77-af17-f6fa16bf853f")
 	)
 	(pad "2" thru_hole roundrect
-		(at 2.54 1.96)
-		(size 2.2 2.2)
-		(drill 1.5)
+		(at 2.54 1.91)
+		(size 2 2)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
+		(thermal_bridge_width 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "337e6b68-a99f-4cd9-9d5e-87942f39cfb3")
 	)
 	(pad "2" thru_hole roundrect
-		(at 2.54 7.04)
-		(size 2.2 2.2)
-		(drill 1.5)
+		(at 2.54 7.09)
+		(size 2 2)
+		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(roundrect_rratio 0.25)
+		(thermal_bridge_width 0.5)
 		(thermal_bridge_angle 45)
 		(uuid "5fbddc79-89f4-4da2-b086-94f26b96e588")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "a3492878-5d94-4e74-892a-146f1c754a45")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 5.8) (xy 2.2 5.8) (xy 2.2 3.1) (xy -2.2 3.1)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "7b7ef341-f0ee-48d6-aa37-b931417e5aca")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.3 2.3) (xy -1.3 6.7) (xy 1.4 6.7) (xy 1.4 2.3)
+			)
+		)
+	)
+	(embedded_fonts no)
 	(model "./Samtec_SMA-J-P-H-RA-TH1.step"
 		(offset
 			(xyz 0 -4.5 6.35)
